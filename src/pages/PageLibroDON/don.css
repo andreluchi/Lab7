@@ -1,0 +1,32 @@
+.book-info {
+    text-align: center;
+  }
+  
+  .book-info img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .book-info img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .book-info figcaption {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+
+.book-description {
+    padding: 20px;
+}
+
+.progress {
+    float: left;
+}
+
+footer {
+    clear: both;
+}

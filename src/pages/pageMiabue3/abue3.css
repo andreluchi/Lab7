@@ -1,0 +1,17 @@
+body {
+    background-color: #afe7f5 ;
+  }
+  
+  h1 {
+      font-size: 36px;
+      color: #2c5a74;
+      border: 2px solid black;
+      box-shadow: 2px 2px 2px grey;
+    }
+    
+  p{
+      font-size: 16px;
+      color: #000000;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
