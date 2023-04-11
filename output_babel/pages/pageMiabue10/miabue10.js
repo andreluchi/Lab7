@@ -1,0 +1,1 @@
+alert("Pagina 10 de la historia:");

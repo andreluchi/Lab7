@@ -1,0 +1,1 @@
+alert("Pagina 7 de la historia:");

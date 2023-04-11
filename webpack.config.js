@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/pages/pageIndex/script.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist_webpack_babel'),
     filename: 'my-first-webpack.bundle.js',
   },
   plugins:[new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
@@ -19,6 +19,14 @@ module.exports = {
         test: /\.css$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader"]
       },
+
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+        }
+      }
     ],
   },
 };
